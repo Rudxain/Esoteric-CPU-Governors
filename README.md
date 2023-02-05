@@ -14,6 +14,6 @@ Example: if the list is [600, 800, 1000], it doesn't choose 600MHz because it's 
 
 ## ThanosCPU
 
-Works like Median, but allows the CPU to randomly jump to min or max, with a bias based of workload.
+Works like Median, but allows the CPU to randomly jump to min or max, with a bias based on workload.
 
 So if the load is low, the bias is towards min speed. Conversely, if load is high, it biases towards max speed.
