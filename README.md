@@ -4,7 +4,7 @@
 
 ## BogoGov
 
-Just like BogoSort, it sets the freq to a random value. It doesn't even sample CPU load.
+Just like BogoSort, it sets the freq to a random value every `gen_rate` milliseconds, default param value is `1`. It doesn't even sample CPU load.
 
 ## Median
 
